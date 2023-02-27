@@ -57,7 +57,7 @@ There is some debate about whether PUBLIC-KEY CRYPTOGRAPHY or SYMMETRIC CRYPTOGR
 
 ## y) Choose a password manager.
 
-- KeePassXC is a popular open-source password manager with several security features to keep you safe from various threats. KeePassXC helps protect against the following threats: Password attacks, Phishing attacks, Keyloggers, Data breaches and etc
+For the password manager I chose KeePassXC which is a popular open-source password manager with several security features to keep you safe from various threats. KeePassXC helps protect against the following threats: Password attacks, Phishing attacks, Keyloggers, Data breaches and etc
 - KeePassXC encrypts the database with strong encryption algorithms such as AES-256, ensuring that the data is safe from unauthorized access.
 - KeePassXC encrypts all sensitive information stored in the password database in general, including: Website and online account usernames and passwords, Credit card details and any other sensitive information stored in the password database. 
 - Not everything is encrypted encrypted by default such as The user interface settings and database backup settings can both be saved in plain text or in an unencrypted format. This is due to the fact that these settings and preferences may not contain sensitive or confidential information that necessitates encryption.
