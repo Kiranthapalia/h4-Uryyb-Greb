@@ -33,3 +33,23 @@ There is some debate about whether PUBLIC-KEY CRYPTOGRAPHY or SYMMETRIC CRYPTOGR
 - In theory, encryption can take place at any layer in the OSI (Open Systems Interconnect) communications model but in practise it takes place either at the lowest layers (one and two) or at higher layers.
 - If it occurs at the lowest layers, it is known as `link-by-link encryption`; everything passing through a specific data link is encrypted.
 - `End-to-end encryption` occurs when data is encrypted selectively and remains encrypted until decrypted by the intended final recipient at higher layers.
+- Link-by-Link is very effective   Since all data is encrypted, a cryptanalyst can obtain no information about the structure of the information.
+- No traffic management techniques are required for security. Key management is also straightforward; only the two endpoints of the line require a shared key, and they can change it independently of the rest of the network as shown in the figure below:
+
+![image](https://user-images.githubusercontent.com/102954934/221690078-a45da03c-6017-4acb-b5db-3b6afb4682a3.png)
+
+- End-to-End Encryption avoids the physical layer encryption/decryption problem. End-to-end encryption ensures that data remains encrypted until it reaches its final destination.
+- End-to-End Encryption also makes key management more difficult because individual users must ensure they have common keys.
+- Because all routing information is encrypted, traffic-flow security is provided, but data is exposed in intermediate nodes as we can see in the figure below:
+
+![image](https://user-images.githubusercontent.com/102954934/221691105-bcc7a7ee-d3f1-432c-b567-64a58a9ef0c1.png)
+
+- Building end-to-end encryption equipment is rather difficult.
+- When we combine the two, we get a higher level of secrecy. However, a more complex key-management system is required, and encryption is done offline.
+
+### ENCRYPTING DATA FOR STORAGE
+
+
+
+
+
