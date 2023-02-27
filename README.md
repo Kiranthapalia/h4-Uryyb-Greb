@@ -55,7 +55,15 @@ There is some debate about whether PUBLIC-KEY CRYPTOGRAPHY or SYMMETRIC CRYPTOGR
 - The data may also exist in plaintext form on another disk, computer, or piece of paper. A cryptanalyst has far more opportunities to perform a known-plaintext attack.
 - Decrypting the entire database to access a single record is inefficient, but encrypting records separately may make them vulnerable to a block-replay attack.
 
+## y) Choose a password manager.
 
+- KeePassXC is a popular open-source password manager with several security features to keep you safe from various threats. KeePassXC helps protect against the following threats:
+ - Password attacks
+ - Phishing attacks
+ - Keyloggers
+ - Data breaches
+
+- KeePassXC encrypts the database with strong encryption algorithms such as AES, ensuring that the data is safe from unauthorized access.
 
 
 
