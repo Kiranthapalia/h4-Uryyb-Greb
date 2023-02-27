@@ -66,12 +66,15 @@ For the password manager I chose KeePassXC which is a popular open-source passwo
 - KeePassXC does not automatically store user data in the cloud, but users can use cloud storage services such as Dropbox or Google Drive to synchronize their password database file across multiple devices.
 - KeePassXC protects data in the following ways: Encrypting user data with industry-standard encryption algorithms such as Advanced Encryption Standard (AES), Authentication with two factors, KeePassXC includes a feature that protects users from clipboard-related attacks by clearing the clipboard after a set amount of time or after a password is copied to the clipboard, KeePassXC includes a password generator that allows users to generate strong, random passwords, After a certain period of inactivity, KeePassXC automatically locks the password database wtc.
 
+## a) Demonstrate the use of a password manager.
+
+First of all i installed KeePassXC from the Microsoft store. 
 
 
 ## Sources
 - https://keepassxc.org/docs/KeePassXC_UserGuide.html
 - https://keepassxc.org/blog/2019-02-21-memory-security/
-
+- https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/19_chap10.html#chap10
 
 
 
