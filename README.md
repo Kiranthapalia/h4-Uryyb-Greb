@@ -28,7 +28,7 @@ There is some debate about whether PUBLIC-KEY CRYPTOGRAPHY or SYMMETRIC CRYPTOGR
 - Public-key cryptography is ideal for key management and a wide range of protocols, whereas symmetric cryptography is ideal for data encryption.
 - Public-key cryptography is slower than symmetric cryptography and requires longer keys.
 
-### ENCRYPTING COMMUNICATIONS CHANNELS
+### 10.3 ENCRYPTING COMMUNICATIONS CHANNELS
 
 - In theory, encryption can take place at any layer in the OSI (Open Systems Interconnect) communications model but in practise it takes place either at the lowest layers (one and two) or at higher layers.
 - If it occurs at the lowest layers, it is known as `link-by-link encryption`; everything passing through a specific data link is encrypted.
@@ -47,7 +47,15 @@ There is some debate about whether PUBLIC-KEY CRYPTOGRAPHY or SYMMETRIC CRYPTOGR
 - Building end-to-end encryption equipment is rather difficult.
 - When we combine the two, we get a higher level of secrecy. However, a more complex key-management system is required, and encryption is done offline.
 
-### ENCRYPTING DATA FOR STORAGE
+### 10.4 ENCRYPTING DATA FOR STORAGE
+
+- Encrypting data for storage and later retrieval can also be thought of in the Alice and Bob model. Alice is still sending a message to Bob, but in this case “Bob” is Alice at some future time. However, the problem is fundamentally different as  If Alice can't decrypt her message, she can't go back in time and re-encrypt it. She has lost it forever.
+- The encryption key has the same value as the message, only it is smaller.
+- A key used on a communications link should ideally only exist for the duration of the communication. A key used for data storage may be required for years and thus must be securely stored for years.
+- The data may also exist in plaintext form on another disk, computer, or piece of paper. A cryptanalyst has far more opportunities to perform a known-plaintext attack.
+- Decrypting the entire database to access a single record is inefficient, but encrypting records separately may make them vulnerable to a block-replay attack.
+
+
 
 
 
