@@ -10,3 +10,13 @@
 - Any clever cryptoanalyst will attempt to break your system if your algorithms are excellent but your random number generator is terrible.
 - A cryptanalyst will be able to crack your system through that gap if you close the hole but neglect to safely erase a memory location that houses the key.
 
+### 10.1 CHOOSING AN ALGORITHM
+
+People have a variety of options when examining and selecting algorithms:
+- They can select a published method on the theory that a published algorithm has been carefully examined by numerous cryptographers; if the algorithm hasn't been cracked yet, it must be quite strong.
+- They can create their own algorithms because they think their cryptography skills are unmatched and that they should only have confidence in themselves.
+- People can put their trust in a private consultant since they think that an unbiased consultant is best suited to provide a trustworthy assessment of various algorithms.
+
+All of these options pose issues, but the first one appears the most logical. You're asking for trouble if you put all of your faith in one manufacturer, consultant, or government.
+In any event, choosing from a list of publicly available algorithms that have stood up to a respectable degree of public inspection and cryptanalysis is the best option.
+
