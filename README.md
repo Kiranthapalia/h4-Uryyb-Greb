@@ -26,4 +26,10 @@ All of these options pose issues, but the first one appears the most logical. Yo
 There is some debate about whether PUBLIC-KEY CRYPTOGRAPHY or SYMMETRIC CRYPTOGRAPHY is superior.
 - Public-key cryptography and symmetric cryptography are two distinct species that solve distinct problems.
 - Public-key cryptography is ideal for key management and a wide range of protocols, whereas symmetric cryptography is ideal for data encryption.
-- Public-key cryptography is slower than symmetric cryptography and requires longer keys,
+- Public-key cryptography is slower than symmetric cryptography and requires longer keys.
+
+### ENCRYPTING COMMUNICATIONS CHANNELS
+
+- In theory, encryption can take place at any layer in the OSI (Open Systems Interconnect) communications model but in practise it takes place either at the lowest layers (one and two) or at higher layers.
+- If it occurs at the lowest layers, it is known as `link-by-link encryption`; everything passing through a specific data link is encrypted.
+- `End-to-end encryption` occurs when data is encrypted selectively and remains encrypted until decrypted by the intended final recipient at higher layers.
