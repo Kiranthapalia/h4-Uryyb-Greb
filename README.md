@@ -57,13 +57,20 @@ There is some debate about whether PUBLIC-KEY CRYPTOGRAPHY or SYMMETRIC CRYPTOGR
 
 ## y) Choose a password manager.
 
-- KeePassXC is a popular open-source password manager with several security features to keep you safe from various threats. KeePassXC helps protect against the following threats:
- - Password attacks
- - Phishing attacks
- - Keyloggers
- - Data breaches
+- KeePassXC is a popular open-source password manager with several security features to keep you safe from various threats. KeePassXC helps protect against the following threats: Password attacks, Phishing attacks, Keyloggers, Data breaches and etc
+- KeePassXC encrypts the database with strong encryption algorithms such as AES-256, ensuring that the data is safe from unauthorized access.
+- KeePassXC encrypts all sensitive information stored in the password database in general, including: Website and online account usernames and passwords, Credit card details and any other sensitive information stored in the password database. 
+- Not everything is encrypted encrypted by default such as The user interface settings and database backup settings can both be saved in plain text or in an unencrypted format. This is due to the fact that these settings and preferences may not contain sensitive or confidential information that necessitates encryption.
+- KeePassXC is licensed with the GNU General Public License Version 3. GPL 3 is a copyleft license that requires any copy or modification of the original code to be released under the GPL v3. In other words, you can take the GPL 3'd code, modify it, and then distribute your version. GPL requires that any modifications or derivative works of the software be released under the same GPL license terms, and that the software's source code be made available to anyone who obtains a copy of the software. Furthermore, the GPL requires that users give credit and attribution to the original authors of the software.
+- KeePassXC is a locally installed application, which means the user's data is saved on their computer's hard drive or another local storage device. It stores the password database file in the user's home directory by default, but the user can specify a different location if they prefer.
+- KeePassXC does not automatically store user data in the cloud, but users can use cloud storage services such as Dropbox or Google Drive to synchronize their password database file across multiple devices.
+- KeePassXC protects data in the following ways: Encrypting user data with industry-standard encryption algorithms such as Advanced Encryption Standard (AES), Authentication with two factors, KeePassXC includes a feature that protects users from clipboard-related attacks by clearing the clipboard after a set amount of time or after a password is copied to the clipboard, KeePassXC includes a password generator that allows users to generate strong, random passwords, After a certain period of inactivity, KeePassXC automatically locks the password database wtc.
 
-- KeePassXC encrypts the database with strong encryption algorithms such as AES, ensuring that the data is safe from unauthorized access.
+
+
+## Sources
+- https://keepassxc.org/docs/KeePassXC_UserGuide.html
+- https://keepassxc.org/blog/2019-02-21-memory-security/
 
 
 
