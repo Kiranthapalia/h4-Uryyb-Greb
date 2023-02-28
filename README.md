@@ -92,10 +92,19 @@ After that we can just press ok and new entry will be added in the databse. Here
 
 ![WhatsApp Image 2023-02-28 at 01 56 30](https://user-images.githubusercontent.com/102954934/221716906-5a5b2cd3-b69a-41bd-80fb-cdf21342eac5.jpeg)
 
-
-As we can see in the image below, I have marked certain area with 3 different colours red blue and yello
+As we can see in the image below, I have marked certain area with 3 different colours red blue and yellow. The red circle represent that it copies the username to the clipboard, the blue colour represents that it copies the password to the clipboard whereas the yellow colour represents that it copies the url od the website. 
 
 ![copy thing](https://user-images.githubusercontent.com/102954934/221717288-05f01110-1af9-460b-ae02-60a46c6709de.jpeg)
+
+Here we can see some general settings, `The clear clipboard after 10 sec` is an important feature as ones we copy the password we can only paste it for 10 seconds after 10 seconds we won't be able to do so which is a really good feature in my opinion.  
+
+![WhatsApp Image 2023-02-28 at 01 56 30 (2)](https://user-images.githubusercontent.com/102954934/221717742-456d3f12-7f31-4d78-b982-05b213ba9312.jpeg)
+
+So in order to open the database where we saved our id and password we will be needing the password that we created while the installation process. 
+
+<img width="540" alt="last" src="https://user-images.githubusercontent.com/102954934/221718019-324ed9c6-e3bd-447d-9872-577948f9a803.png">
+
+There is even a browser extension of KeePassXC for Edge, Chrome etc. 
 
 ## Sources
 - https://keepassxc.org/docs/KeePassXC_UserGuide.html
