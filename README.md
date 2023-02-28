@@ -104,7 +104,7 @@ So in order to open the database where we saved our id and password we will be n
 
 <img width="540" alt="last" src="https://user-images.githubusercontent.com/102954934/221718019-324ed9c6-e3bd-447d-9872-577948f9a803.png">
 
-There is even a browser extension of KeePassXC for Edge, Chrome etc. 
+There is even a browser extension of KeePassXC for Edge, Chrome etc. So that is how a password manager works. We need just 1 password to retrieve all the password that are saved in the database. 
 
 ## Sources
 - https://keepassxc.org/docs/KeePassXC_UserGuide.html
