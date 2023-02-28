@@ -108,11 +108,11 @@ There is even a browser extension of KeePassXC for Edge, Chrome etc. So that is 
 
 ## b) Encrypt and decrypt a message
 
-We could use any toold that we wanetd so I chose ccrypt instead of gpg because I alreay tried it with gpg during the class. FIrst i installed it by using the command `sudo apt-get install ccrypt`.
+We could use any tool that we wanetd so I chose ccrypt instead of gpg because I alreay tried it with gpg during the class. FIrst i installed it by using the command `sudo apt-get install ccrypt`.
 
 <img width="593" alt="Decrypt and ecnrypt" src="https://user-images.githubusercontent.com/102954934/221720887-0e4d4efd-bfab-406c-8817-cedf575be9b9.png">
-Then i created a file name message using the command `micro message` and wrote some text inside, saved it by pressing `ctrl + s` and then quit the micro editor by pressing `ctrl + q`. AFter that I encrypted the file 
 
+Then i created a file name message using the command `micro message` and wrote some text inside, saved it by pressing `ctrl + s` and then quit the micro editor by pressing `ctrl + q`. After that I encrypted the file using the command `ccencrypt message`. After encrypting the file I had to provide an encryption key twice. After the encryption i tried opeining the file using the command `cat message ` but all i got was some jibberish because unless i decryt the file i won't be able to see the message inside the file. So in order to decrypt the file i used the command `ccdecrypt message` and then provided the key decryption key. I tried opening the file again and this time I was sucessful as you can see the message that was inside the file in the above image.  
 
 ## Sources
 - https://keepassxc.org/docs/KeePassXC_UserGuide.html
