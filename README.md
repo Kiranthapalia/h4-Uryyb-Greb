@@ -70,6 +70,32 @@ For the password manager I chose KeePassXC which is a popular open-source passwo
 
 First of all i installed KeePassXC from the Microsoft store. 
 
+<img width="564" alt="1" src="https://user-images.githubusercontent.com/102954934/221715496-857a0709-b1ca-4487-b418-85e8e1931de3.png">
+
+After that I filled in the databse name and continued 
+
+<img width="448" alt="2" src="https://user-images.githubusercontent.com/102954934/221715685-02666724-c96f-4b20-ab11-0730810b843e.png">
+
+Pressed continue again as the settings can be changed later on aswell
+
+<img width="452" alt="3" src="https://user-images.githubusercontent.com/102954934/221715720-2a0d4dac-79f1-4755-8820-85be60c95372.png">
+
+AFter that i generated a random password by pressing the box which had `A` above it and then done.
+
+<img width="451" alt="4" src="https://user-images.githubusercontent.com/102954934/221716082-a3f78fa0-7593-4123-89c9-5f5af3675165.png"> 
+
+Now I added some new entry to the database. Here we can fill in the username, password aswell as the url. 
+
+![WhatsApp Image 2023-02-28 at 01 56 29](https://user-images.githubusercontent.com/102954934/221716594-6a3fd9be-c6c6-42c6-9f7a-b7e1b7bafa7b.jpeg)
+
+After that we can just press ok and new entry will be added in the databse. Here i used my Haaga-Helia's credentials as an example.`Took the picture from my phone so it's a bit blurry because KeePassXC wont let me take a screenshot of it.` 
+
+![WhatsApp Image 2023-02-28 at 01 56 30](https://user-images.githubusercontent.com/102954934/221716906-5a5b2cd3-b69a-41bd-80fb-cdf21342eac5.jpeg)
+
+
+As we can see in the image below, I have marked certain area with 3 different colours red blue and yello
+
+![copy thing](https://user-images.githubusercontent.com/102954934/221717288-05f01110-1af9-460b-ae02-60a46c6709de.jpeg)
 
 ## Sources
 - https://keepassxc.org/docs/KeePassXC_UserGuide.html
