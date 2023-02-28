@@ -106,6 +106,14 @@ So in order to open the database where we saved our id and password we will be n
 
 There is even a browser extension of KeePassXC for Edge, Chrome etc. So that is how a password manager works. We need just 1 password to retrieve all the password that are saved in the database. 
 
+## b) Encrypt and decrypt a message
+
+We could use any toold that we wanetd so I chose ccrypt instead of gpg because I alreay tried it with gpg during the class. FIrst i installed it by using the command `sudo apt-get install ccrypt`.
+
+<img width="593" alt="Decrypt and ecnrypt" src="https://user-images.githubusercontent.com/102954934/221720887-0e4d4efd-bfab-406c-8817-cedf575be9b9.png">
+Then i created a file name message using the command `micro message` and wrote some text inside, saved it by pressing `ctrl + s` and then quit the micro editor by pressing `ctrl + q`. AFter that I encrypted the file 
+
+
 ## Sources
 - https://keepassxc.org/docs/KeePassXC_UserGuide.html
 - https://keepassxc.org/blog/2019-02-21-memory-security/
