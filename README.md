@@ -118,6 +118,7 @@ Then i created a file name message using the command `micro message` and wrote s
 - https://keepassxc.org/docs/KeePassXC_UserGuide.html
 - https://keepassxc.org/blog/2019-02-21-memory-security/
 - https://learning.oreilly.com/library/view/applied-cryptography-protocols/9781119096726/19_chap10.html#chap10
+- https://www.fosslinux.com/27018/best-ways-to-encrypt-files-in-linux.htm
 
 
 
